@@ -1,0 +1,71 @@
+.tasksWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.addSection {
+    flex: 1;
+    margin-top: 10px;
+    max-height: 50px;
+}
+
+.newItemInput {
+    width: calc(100vw - 150px);
+    margin: 0 5px;
+}
+
+.overflowContainer {
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+}
+
+.taskItems {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    margin-top: 70px;
+}
+
+.card {
+    width: 95vw;
+    height: 80px;
+    min-height: 80px;
+    background: #FFFFCC;
+    border-radius: 10px;
+    margin: 10px 0px;
+    box-shadow: 1px 1px;
+}
+
+.cardActions {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.actionIcon {
+    padding: 10px
+}
+
+.cardCheckbox {
+    margin: 1px 10px;
+    height: 10px;
+}
+
+.textContainer {
+    display: flex;
+}
+
+.cardText {
+    margin-left: 15px;
+    max-width: 75vw;
+}
+
+.checkedCard {
+    background: rgba(19, 152, 89, 0.1);
+}
